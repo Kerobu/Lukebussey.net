@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "Baca";
+    src: url("./Fonts/Bacalisties.ttf");
+}
+@font-face {
+    font-family: "Calibri";
+    src: url("./Fonts/Calibri.ttf");
+}
+
+body {
+    margin: 0;
+    background-color: black;
+    font-family: sans-serif;
+
+    .header {
+        padding: 10px;
+        text-align: center;
+        background: #FFFDD0 ;
+        color: black;
+        line-height: 1.25;
+    }
+
+    .header h1 {
+        font-size: 40px;
+        display: inline;
+        font-family: "Baca";
+        vertical-align: bottom;
+    }
+
+    .header h2 {
+        font-size: 20px;
+        display: inline;
+        font-family: sans-serif;
+        font-variant: small-caps;
+        vertical-align: 11px;
+    }
+
+    .navigation {
+        overflow: hidden;
+        background-color: #FFFDD0;
+        line-height: 0.7;
+    }
+
+    .navigation a {
+        float: left;
+        color: black;
+        text-align: center;
+        padding: 14px 28px;
+        font-size: 16px;
+        cursor: pointer;
+        font-family: sans-serif;
+        font-variant: small-caps;
+        text-decoration: none;
+    }
+
+    .navigation a:hover {
+        background-color: gray;
+        color: black;
+    }
+
+    .navigation a.active {
+        background-color: black;
+        color: white;
+    }
+}
